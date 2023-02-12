@@ -21,7 +21,7 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Team_bot_support")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "team_bot_update")
 
 # database, decorators, handlers mandatory vars
-MONGODB_URL = getenv("mongodb+srv://Teameglemafia123:Teameglemafia@cluster0.zl3wz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGODB_URL = getenv("MONGODB_URL")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
 OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
