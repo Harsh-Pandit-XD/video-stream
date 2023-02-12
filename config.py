@@ -11,20 +11,20 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 SESSION_NAME = getenv("SESSION_NAME", "session")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
+OWNER_USERNAME = getenv("official_pro_xd")
+ALIVE_NAME = getenv("Music Bot")
 BOT_USERNAME = getenv("BOT_USERNAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Harsh-Pandit-XD/video-stream")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Team_bot_support")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "team_bot_update")
 
 # database, decorators, handlers mandatory vars
-MONGODB_URL = getenv("MONGODB_URL")
+MONGODB_URL = getenv("mongodb+srv://Teameglemafia123:Teameglemafia@cluster0.zl3wz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+OWNER_ID = list(map(int, getenv("5052969674").split()))
+SUDO_USERS = list(map(int, getenv("5052969674").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
